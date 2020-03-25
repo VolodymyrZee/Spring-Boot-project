@@ -22,7 +22,7 @@ public class PersonService {
 	
 	
 	@Autowired    //Spring boot injects the actual service into this constructor
-	public PersonService(@Qualifier("fakeDao") PersonDao personDao) {
+	public PersonService(@Qualifier("postgres") PersonDao personDao) {
 		this.personDao = personDao;
 	}
 	
