@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 import model.Person;
 import service.PersonService;
 
-@RequestMapping("api/person")
+@RequestMapping("/api/person")
 @RestController
 public class PersonController {
 	
