@@ -25,8 +25,7 @@ public class PersonDataAccessService implements PersonDao{
 
 	@Override
 	public Optional<Person> selectPersonById(UUID id) {
-		// TODO Auto-generated method stub
-		return null;
+		return Optional.empty();
 	}
 
 	@Override
